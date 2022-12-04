@@ -1,0 +1,27 @@
+body {
+  background-color: #0e1117;
+  color: #fff;
+}
+
+header {
+  border-bottom: 1px solid #fff;
+}
+
+.title {
+  color: #f9dd45;
+}
+
+.category {
+  text-align: right;
+  padding: 4px 0;
+}
+
+.category li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
