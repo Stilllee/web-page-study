@@ -1,3 +1,5 @@
+@import url("./reset.css");
+
 html {
   font-size: 18px;
 }
@@ -16,24 +18,28 @@ body {
 
 header {
   border-bottom: 1px solid #fff;
+  padding: 20px 150px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
+  font-size: 30px;
+  font-weight: 700;
   color: #f9dd45;
 }
 
 .category {
-  text-align: right;
-  padding: 4px 0;
+  line-height: 42px;
 }
 
 .category li {
-  list-style: none;
   display: inline-block;
 }
 
 .category a {
+  font-size: 23px;
+  font-weight: 700;
   padding: 6px 10px;
-  display: inherit;
   text-transform: uppercase;
 }
